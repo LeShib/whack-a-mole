@@ -24,6 +24,22 @@ h1{
     background-color: white;
 }
 
+.used{
+    background-color: red;
+}
+
+#timer{
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#div_but{
+    text-align: center;
+}
+
 #score{
     text-align: center;
     border: 1px solid black;
@@ -33,9 +49,19 @@ h1{
 }
 
 #streak{
-    text-align: center;
+    /* text-align: center; */
     border: 1px solid black;
     width: 450px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#best_streak{
+    padding-left: 10px;
+    padding-right: 130px;
+}
+
+#streak_in_progress{
+    padding-left: 10px;
+    border-left: 1px solid black;
 }
