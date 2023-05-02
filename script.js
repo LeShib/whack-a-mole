@@ -82,8 +82,8 @@ function update(event){
 }
 
 function start(){
-    min = 0;
-    sec = 20;
+    min = 2;
+    sec = 1;
     score = 0;
     streak = 0;
     maxStreak = 0;
